@@ -23,14 +23,14 @@ export default function Project({
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
-    <motion.div 
-        ref={ref} 
-        style={{
-            scale: scaleProgress,
-            opacity: opacityProgress
-        }}
-        className="group mb-3 sm:mb-8 last:mb-0 max-w-[50rem]"
-        >
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgress,
+        opacity: opacityProgress,
+      }}
+      className="group mb-3 sm:mb-8 last:mb-0 max-w-[50rem]"
+    >
       <motion.section className="relative bg-gray-100 max-w[42rem] border border-black/5 overflow-hidden sm:pr-8 sm:h-[20rem] group-even:pl-8 hover:bg-gray-200 transition rounded-lg">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
