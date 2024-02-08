@@ -50,3 +50,17 @@ export const projectsData = [
     imageUrl: fullStackImg,
   },
 ] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Git",
+  "Tailwind",
+  "Redux",
+  "SQL",
+  "Framer Motion",
+] as const;
