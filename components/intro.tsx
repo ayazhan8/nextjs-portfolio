@@ -92,7 +92,7 @@ export default function intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/7"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/7 dark:bg-white/10 dark:border-none"
           href="/CV.pdf"
           download
         >
@@ -101,7 +101,7 @@ export default function intro() {
         </a>
 
         <a
-          className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/7"
+          className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/7 dark:bg-white/10 dark:border-none dark:text-white/60"
           href="https://www.linkedin.com/in/ayerikkyzy/"
           target="_blank"
         >
@@ -109,7 +109,7 @@ export default function intro() {
         </a>
 
         <a
-          className="bg-white text-gray-700 text-[1.35rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/7"
+          className="bg-white text-gray-700 text-[1.35rem] p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/7 dark:bg-white/10 dark:border-none dark:text-white/60"
           href="https://github.com/ayazhan8"
           target="_blank"
         >
