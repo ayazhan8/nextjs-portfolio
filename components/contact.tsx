@@ -5,6 +5,7 @@ import SectionHeading from "./section-heading";
 import { FaPaperPlane } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { sendEmail } from "@/actions/sendEmail";
 
 export default function contact() {
   const { ref } = useSectionInView("Contact");
@@ -38,8 +39,7 @@ export default function contact() {
 
       <form
         action={async (formData) => {
-          console.log(formData.get("email"));
-          console.log(formData.get("message"));
+          await sendEmail(formData);
         }}
         className="mt-10 flex flex-col"
       >
@@ -47,14 +47,14 @@ export default function contact() {
           type="email"
           name="email"
           required
-          maxLength={100}
+          maxLength={500}
           className="h-14 rounded-lg borderBlack p-4 outline-black"
           placeholder="Your email"
         />
         <textarea
           name="message"
           required
-          maxLength={1000}
+          maxLength={5000}
           className="h-52 my-3 rounded-lg borderBlack p-4 outline-black"
           placeholder="Your message"
         />
@@ -69,3 +69,5 @@ export default function contact() {
     </motion.section>
   );
 }
+
+// re_9ro4eaJ8_82s9tjmn4JMWYvFrgDBAmJen
