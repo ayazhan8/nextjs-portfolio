@@ -8,7 +8,7 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "@/components/submit-btn";
 import toast from "react-hot-toast";
 
-export default function contact() {
+export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
   return (
