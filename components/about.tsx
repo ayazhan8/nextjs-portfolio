@@ -27,8 +27,8 @@ export default function About() {
         things using different technologies. My core stack is{" "}
         <span className="font-bold">React, Next.js, and TypeScript. </span>
         <span className="font-normal">
-          I'm keen for continuous learning in web development. Currently, I am
-          learning{" "}
+          {`I'm keen for continuous learning in web development. Currently, I am
+          learning`}
         </span>
         <span className="font-bold">backend development tools </span>
         as I would like to become a full-stack developer in the future. Now, I
@@ -39,7 +39,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">{`When I'm not coding`}</span>, I enjoy playing
         traveling, reading, walking, and learning new things (especially
         languages). I am currently learning{" "}
         <span className="font-bold">Spanish and Arabic</span>.

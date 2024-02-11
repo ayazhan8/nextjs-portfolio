@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -60,7 +60,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ayazhan.</span>
+        <span className="font-bold">{`Hello, I'm Ayazhan.`}</span>
         {` I'm a `}
         <span className="font-bold">frontend developer</span>
         {` with a foundation in `}
