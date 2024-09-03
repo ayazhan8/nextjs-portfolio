@@ -65,10 +65,11 @@ export default function Intro() {
         <span className="font-bold">frontend developer</span>
         {` with a foundation in `}
         <span className="font-bold">computer science</span>
-        {` and nearly a year of hands-on experience in a `}
+        {` and a year of hands-on experience in a `}
         <span className="font-bold">dynamic startup environment</span>
         {`, specialising in `}
         <span className="font-bold">web application development.</span>
+        {` Currently, I am improving my skills in UX/UI Design to create better user-centered apps.`}
       </motion.h1>
 
       <motion.div

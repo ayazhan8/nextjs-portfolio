@@ -19,7 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a <span className="font-bold">Computer Science</span> graduate, who
+        This section will be updated.
+        {/* I am a <span className="font-bold">Computer Science</span> graduate, who
         decided to pursue a career in{" "}
         <span className="font-bold">frontend development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is
@@ -35,7 +36,7 @@ export default function About() {
         am looking for a <span className="font-bold">
           full-time position
         </span>{" "}
-        as a software developer / frontend developer.
+        as a software developer / frontend developer. */}
       </p>
 
       <p>
