@@ -61,9 +61,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">{`Hello, I'm Ayazhan. `}</span>
-        <span>I'm an </span>
+        <span>I&apos;m an </span>
         <span className="font-bold">{`aspiring educator `}</span>
-        <span>with a BSc in Computer Science. Currently, I'm transitioning into the education field while working as a software developer. I'm designing and leading interactive sessions for my English Speaking Club, attending conferences, and applying to</span>
+        <span>with a BSc in Computer Science. Currently, I&apos;m transitioning into the education field while working as a software developer. I&apos;m designing and leading interactive sessions for my English Speaking Club, attending conferences, and applying to</span>
         <span className="font-bold">{` Master's programs in Education & Technology. `}</span>
         <span>My goal is to create inspiring, inclusive, tech-enhanced, and learner-centered environments that empower diverse learners.</span>
       </motion.h5>
