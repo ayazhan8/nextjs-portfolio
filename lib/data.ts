@@ -1,4 +1,5 @@
 import fullStackImg from "@/public/full-stack.png";
+import engClubImg from "@/public/eng-club.jpg";
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuDatabase, LuGraduationCap } from "react-icons/lu";
@@ -32,11 +33,11 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Project1",
+    title: "English Speaking Club",
     description:
-      "Weather app with AI integration. AI uses data from WeatherAPI to generate a forecast for the day.",
-    tags: ["React", "Next.js", "Tailwind", "Prisma"],
-    imageUrl: fullStackImg,
+      "I design and lead interactive sessions to help students build confidence, fluency, and communication skills through discussion and collaborative activities. The club fosters a supportive space for creativity, cultural exchange, and personal growth.",
+    tags: ["Canva", "Zoom"],
+    imageUrl: engClubImg,
   },
   {
     title: "Project2",

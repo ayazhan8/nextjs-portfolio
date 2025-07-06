@@ -37,7 +37,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="h-36 w-36 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -55,22 +55,18 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-normal !leading-[1.5] sm:text-4xl"
+      <motion.h5
+        className="mb-20 mt-4 px-4 text-xs font-normal !leading-[1.5] sm:text-xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">{`Hello, I'm Ayazhan.`}</span>
-        {` I'm a `}
-        <span className="font-bold">frontend developer</span>
-        {` with a foundation in `}
-        <span className="font-bold">computer science</span>
-        {` and a year of hands-on experience in a `}
-        <span className="font-bold">dynamic startup environment</span>
-        {`, specialising in `}
-        <span className="font-bold">web application development.</span>
-        {` Currently, I am improving my skills in UX/UI Design to create better user-centered apps.`}
-      </motion.h1>
+        <span className="font-bold">{`Hello, I'm Ayazhan. `}</span>
+        <span>I'm an </span>
+        <span className="font-bold">{`aspiring educator `}</span>
+        <span>with a BSc in Computer Science. Currently, I'm transitioning into the education field while working as a software developer. I'm designing and leading interactive sessions for my English Speaking Club, attending conferences, and applying to</span>
+        <span className="font-bold">{` Master's programs in Education & Technology. `}</span>
+        <span>My goal is to create inspiring, inclusive, tech-enhanced, and learner-centered environments that empower diverse learners.</span>
+      </motion.h5>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -94,7 +90,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/7 dark:bg-white/10 dark:border-none"
-          href="/CV.pdf"
+          href="/CV.docx"
           download
         >
           Download CV{" "}

@@ -11,39 +11,23 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-14 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        This section will be updated.
-        {/* I am a <span className="font-bold">Computer Science</span> graduate, who
-        decided to pursue a career in{" "}
-        <span className="font-bold">frontend development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is
-        solving problems, learning new things, and learning new ways of doing
-        things using different technologies. My core stack is{" "}
-        <span className="font-bold">React, Next.js, and TypeScript. </span>
-        <span className="font-normal">
-          {`I'm keen for continuous learning in web development. Currently, I am
-          learning`}
-        </span>
-        <span className="font-bold">backend development tools </span>
-        as I would like to become a full-stack developer in the future. Now, I
-        am looking for a <span className="font-bold">
-          full-time position
-        </span>{" "}
-        as a software developer / frontend developer. */}
+      <p className="mb-6">
+        With a background in Computer Science and a growing passion for education, I’m committed to creating engaging, inclusive, and learner-centered environments that inspire diverse students.
       </p>
 
-      <p>
-        <span className="italic">{`When I'm not coding`}</span>, I enjoy playing
-        traveling, reading, walking, and learning new things (especially
-        languages). I am currently learning{" "}
-        <span className="font-bold">Spanish and Arabic</span>.
+      <p className="mb-6">
+        While working as a software developer, I’ve been actively transitioning into teaching. Currently, I’m leading sessions in my English Speaking Club, preparing tailored lesson materials, and continuously reflecting on how to improve the learning experience. I love designing lessons that foster creativity, openness, and compassion, and I enjoy bringing in fresh ideas while giving learners the space to express themselves and support one another.
+      </p>
+
+      <p className="mb-6">
+        In the near future, I aim to pursue a Master’s degree in Education, with a focus on the intersection of pedagogy and technology. Looking ahead, I hope to deepen my understanding of educational leadership and policy to help shape more equitable and effective learning systems. I see education as a lifelong journey: one that  begins at birth and continues throughout life. I’m eager to share my passion for education with others.
       </p>
     </motion.section>
   );
